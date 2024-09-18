@@ -49,6 +49,25 @@
 0.0.0.0 msedge.net 
 0.0.0.0 c-0001.dc-msedge.net 
 0.0.0.0 ocsp.edge.digicert.com
+0.0.0.0 msedge.sf.dl.delivery.mp.microsoft.com
+0.0.0.0 t-ring.msedge.net
+0.0.0.0 o-ring.msedge.net
+0.0.0.0 b-ring.msedge.net
+0.0.0.0 k-ring.msedge.net
+0.0.0.0 msedge.api.cdp.microsoft.com
+0.0.0.0 ocos-office365-s2s.msedge.net
+0.0.0.0 msedge.b.tlu.dl.delivery.mp.microsoft.com
+0.0.0.0 client-office365-tas.msedge.net
+0.0.0.0 evoke-windowsservices-tas.msedge.net
+0.0.0.0 fp.msedge.net
+0.0.0.0 hel01r3.msedge.net
+0.0.0.0 iteactive-pra.msedge.net
+0.0.0.0 msedge.api.cdp.microsoft.com
+0.0.0.0 outlookmobile-office365-tas.msedge.net
+0.0.0.0 rom30r3a.msedge.net
+0.0.0.0 stor3.msedge.net
+0.0.0.0 edge.microsoft.com
+0.0.0.0 edge.activity.windows.com
 
 //Connection check(Disable if Windows Update doesn't work)
 
@@ -66,7 +85,6 @@
 0.0.0.0 msnewskids.net
 0.0.0.0 msnewskids.org
 0.0.0.0 msnkids.com
-0.0.0.0 assets.msn.com
 
 
 //msc and live adware and tracking
@@ -131,6 +149,7 @@
 0.0.0.0 emoi-cncdn.bing.com
 0.0.0.0 p-th.bing.com.trafficmanager.net
 0.0.0.0 th.bing.com.trafficmanager.net
+0.0.0.0 bat.bing.com
 
 
 //IPv6 Domains (Disable it if u from USA or u use IPv6)
@@ -321,6 +340,12 @@
 0.0.0.0 uks.b.prd.ags.trafficmanager.net
 0.0.0.0 weus2watcab01.blob.core.windows.net
 0.0.0.0 weus2watcab02.blob.core.windows.net
+0.0.0.0 v10.events.data.microsoft.com
+0.0.0.0 v10c.events.data.microsoft.com
+0.0.0.0 v20.events.data.microsoft.com
+0.0.0.0 us-v10.events.data.microsoft.com
+0.0.0.0 us-v20.events.data.microsoft.com
+0.0.0.0 teams.events.data.microsoft.com
 
 
 //Vortex spying domains
@@ -349,13 +374,14 @@
 0.0.0.0 v20.vortex-win.data.microsoft.com
 0.0.0.0 xblgdvrassets3010.blob.core.windows.net
 0.0.0.0 ztd.dds.microsoft.com
+0.0.0.0 us.vortex-win.data.microsoft.com
 
 //akadns 
 
-0.0.0.0 fe2.update.microsoft.com.akadns.net
+//0.0.0.0 fe2.update.microsoft.com.akadns.net
 0.0.0.0 lb1.www.ms.akadns.net
-0.0.0.0 sls.update.microsoft.com.akadns.net
-0.0.0.0 statsfe2.update.microsoft.com.akadns.net
+//0.0.0.0 sls.update.microsoft.com.akadns.net
+//0.0.0.0 statsfe2.update.microsoft.com.akadns.net
 
 //Xbox (Disable if u cant login)
 
@@ -364,6 +390,7 @@
 
 //OneDrive
 
+0.0.0.0 api.onedrive.com
 0.0.0.0 1drv.com
 0.0.0.0 1drv.ms
 0.0.0.0 livefilestore.com
@@ -416,6 +443,7 @@
 0.0.0.0 spynetalt.microsoft.com 
 0.0.0.0 spyneteurope.microsoft.akadns.net 
 0.0.0.0 urs.smartscreen.microsoft.com
+0.0.0.0 nav.smartscreen.microsoft.com
 0.0.0.0 ars.smartscreen.microsoft.com
 0.0.0.0 survey.watson.microsoft.com
 0.0.0.0 smartscreen.microsoft.com
@@ -429,8 +457,9 @@
 0.0.0.0 umwatson.events.data.microsoft.com
 0.0.0.0 umwatsonc.events.data.microsoft.com
 0.0.0.0 umwatsonc.telemetry.microsoft.us
+0.0.0.0 w.apprep.smartscreen.microsoft.com
 
-//Push and ads
+//Push, trafficmanager and ads
 
 0.0.0.0 candycrushsoda.king.com 
 
@@ -808,6 +837,7 @@
 
 0.0.0.0 apps.skype.com
 0.0.0.0 pricelist.skype.com
+0.0.0.0 neu.notifications.skype.com
 
 //onenote
 
@@ -920,8 +950,11 @@
 0.0.0.0 cdn.iubenda.com
 0.0.0.0 cmcxmh.com
 0.0.0.0 bs.serving-sys.com
+0.0.0.0 360ads.com
 
 0.0.0.0 pbs.alfasense.com
+
+0.0.0.0 collector.appconsent.io
 
 //adscore
 
@@ -940,6 +973,7 @@
 0.0.0.0 download.cdn.yandex.net
 0.0.0.0 browser-resources.s3.yandex.net
 0.0.0.0 yandexbrowser2019.ru
+0.0.0.0 browser-updater.yandex.net
 
 //mail.ru
 
@@ -948,7 +982,11 @@
 0.0.0.0 bb.pulse.mail.ru
 0.0.0.0 ad.mail.ru
 
-//vk.com(Durov, bring back the wall)
+//Atom Browser
+
+0.0.0.0 mrds.mail.ru
+
+//vk.com(Durov, bring back the wall)(udp: 28.08.2024 #freedurov)
 
 0.0.0.0 vkgaby.hit.gemius.pl
 0.0.0.0 www.tns-counter.ru
@@ -962,6 +1000,8 @@
 0.0.0.0 target.vk.ru
 0.0.0.0 html5-ads.vk-apps.com
 0.0.0.0 vk-analytics.ru
+0.0.0.0 vkcdnservice.com
+0.0.0.0 vkgtrack.com
 
 //anti yandex 
 
@@ -1002,6 +1042,13 @@
 0.0.0.0 statchecker.yandex.ru
 0.0.0.0 analytics.mobile.yandex.net
 0.0.0.0 yandexadexchange.net
+0.0.0.0 awaps.yandex.ru
+0.0.0.0 csp.yandex.ne
+0.0.0.0 report.appmetrica.yandex.net.iberostar.com
+
+0.0.0.0 log.dzen.ru
+0.0.0.0 suggest.sso.dzen.ru
+0.0.0.0 clck.dzen.ru
 
 //yandex login domains (I dont know what thay do, disable if something goes wrong)
 
@@ -1053,6 +1100,7 @@
 0.0.0.0 securepubads.g.doubleclick.net
 0.0.0.0 www.google-analytics.com
 0.0.0.0 google-analytics.com
+0.0.0.0 region1.google-analytics.com
 0.0.0.0 adservice.google.co.in
 0.0.0.0 adservice.google.com.vn
 0.0.0.0 adservice.google.be
@@ -1065,6 +1113,7 @@
 0.0.0.0 static.googleadsserving.cn
 0.0.0.0 displayads-formats.googleusercontent.com
 0.0.0.0 ads.youtube.com
+0.0.0.0 g.doubleclick.net
 
 
 0.0.0.0 ssl.googleanalytics.com
@@ -1078,8 +1127,8 @@
 0.0.0.0 c.pub.network
 
 
-0.0.0.0 fonts.googleapis.com
-0.0.0.0 fonts.gstatic.com
+//0.0.0.0 fonts.googleapis.com
+//0.0.0.0 fonts.gstatic.com
 
 0.0.0.0 play.google.com
 
@@ -1111,7 +1160,7 @@
 
 
 
-//antiamazon track
+//amazon track
 
 0.0.0.0 c5.adalyser.com
 0.0.0.0 peso-1422535133.eu-west-1.elb.amazonaws.com
@@ -1123,6 +1172,7 @@
 0.0.0.0 affiliationjs.s3.amazonaws.com
 0.0.0.0 advertising-api-eu.amazon.com
 0.0.0.0 amazonaax.com
+0.0.0.0 ocsp.r2m03.amazontrust.com
 
 //yahoo! (Are you really use this in 2k24? *_*)
 
@@ -1135,6 +1185,7 @@
 0.0.0.0 udc.yahoo.com
 0.0.0.0 adtech.yahooinc.com
 0.0.0.0 gemini.yahoo.com
+0.0.0.0 app.ssp.yahoo.com
 
 //freshmarketer analytics
 
@@ -1147,6 +1198,21 @@
 0.0.0.0 c.go-mpulse.net
 0.0.0.0 go-mpulse.net
 0.0.0.0 service.piriform.com
+0.0.0.0 service.piriform.com-v1.edgekey.net
+0.0.0.0 license.piriform.com
+
+//iobit shitware (DO NOT USE IT!1!)
+
+0.0.0.0 www.iobit.com
+0.0.0.0 iobit.com
+0.0.0.0 download.iobit.com
+0.0.0.0 update.iobit.com
+0.0.0.0 stats.iobit.com
+0.0.0.0 ascstats.iobit.com 
+0.0.0.0 ascstats-iobit-com.elasticbeanstalk.com
+0.0.0.0 cdn.iobit.com
+0.0.0.0 www-iobit-com-new.us-east-1.elasticbeanstalk.com
+0.0.0.0 stats-iobit-com.us-east-1.elasticbeanstalk.com
 
 //anti Akamai spying domains
 
@@ -1232,9 +1298,11 @@
 0.0.0.0 ads.facebook.com
 
 
-//Twitter
+//Twitter(X)
 0.0.0.0 static.ads-twitter.com
 0.0.0.0 ads-api.twitter.com
+0.0.0.0 ads.x.com
+0.0.0.0 ads.twitter.com
 
 //LinkedIn
 0.0.0.0 ads.linkedin.com
@@ -1282,6 +1350,7 @@
 0.0.0.0 data.mistat.india.xiaomi.com
 0.0.0.0 data.mistat.rus.xiaomi.com
 0.0.0.0 sdkconfig.ad.xiaomi.com
+0.0.0.0 ad.intl.xiaomi.com
 0.0.0.0 sdkconfig.ad.intl.xiaomi.com
 0.0.0.0 tracking.rus.miui.com
 0.0.0.0 fcanr.tracking.miui.com
@@ -1290,6 +1359,15 @@
 0.0.0.0 tracking.intl.miui.com
 0.0.0.0 tracking.india.miui.com
 0.0.0.0 game.ad.xiaomi.com
+0.0.0.0 abtest.mistat.xiaomi.com
+0.0.0.0 app.chat.global.xiaomi.net.iberostar.com
+0.0.0.0 find.api.micloud.xiaomi.net.iberostar.com
+0.0.0.0 resolver.msg.global.xiaomi.net.iberostar.com
+0.0.0.0 us.appbackupapi.micloud.xiaomi.net.iberostar.com
+0.0.0.0 us.micardapi.micloud.xiaomi.net.iberostar.com
+0.0.0.0 us.noteapi.micloud.xiaomi.net.iberostar.com
+0.0.0.0 us.pdc.micloud.xiaomi.net.iberostar.com
+0.0.0.0 tracker.ai.xiaomi.com
 
 //Huawei
 0.0.0.0 metrics.data.hicloud.com
@@ -1305,6 +1383,7 @@
 0.0.0.0 metrics-dra.dt.hicloud.com
 
 //Apple
+0.0.0.0 ads.apple.com
 0.0.0.0 iadsdk.apple.com
 0.0.0.0 metrics.icloud.com
 0.0.0.0 metrics.mzstatic.com
@@ -1324,3 +1403,6 @@
 0.0.0.0 samsungadhub.com
 0.0.0.0 business.samsungusa.com
 0.0.0.0 config.samsungads.com
+0.0.0.0 sspapi-prd.samsungrs.com
+0.0.0.0 samsungtvads.com
+0.0.0.0 ads.samsungads.com
